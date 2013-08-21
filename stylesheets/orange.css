@@ -1,0 +1,273 @@
+/* 
+Theme by Josh Hornby - http://joshhornby.co.uk
+Released under The MIT License (MIT)
+http://opensource.org/licenses/MIT
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+
+/***** Begin Styles! ******/
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: #383838;
+  }
+
+a {
+  text-decoration: none;
+  color: #383838;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #363636;
+}
+
+p {
+  font-size: .9em;
+  line-height: 1.6em;
+  font-family: 'Open Sans';
+}
+
+.small_p {
+  margin-left: auto;
+  margin-right: auto;
+  color: #afafaf;
+  max-width: 565px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/***** Header/Nav ******/
+
+header {
+  width: 100%;
+  min-height: 125px;
+  background: rgba(255,255,255,0.62);
+  position: fixed;
+  -moz-transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+header.reveal {
+  opacity: 0.9;
+  background: #ffffff;
+}
+
+header nav {
+  float: right;
+  position: relative;
+  padding-top: 50px;
+  padding-right: 30px;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 20px;
+  color: #AFAFAF;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: .75em;
+}
+
+header img {
+  opacity: 0;
+  font-size: 3em;
+  padding-top: 30px;
+  padding-left: 50px;
+  position: absolute;
+  
+  -moz-transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+header.reveal img {
+  opacity: 0.9;
+}
+
+.intro {
+  width: 100%;
+  height: 650px;
+}
+
+.intro .main-logo {
+  display: block;
+  padding-top: 215px;
+  padding-bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro .intro_p {
+  margin-left: auto;
+  margin-right: auto;
+  color: #afafaf;
+  max-width: 565px;
+  text-align: center;
+}
+
+.section2 {
+  background-color: #fafafa;
+}
+
+.section2, p {
+  padding-bottom: 20px;
+}
+
+.section2 .standard {
+  text-align: left;
+}
+
+.section2 .tagline {
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.section-title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.left {
+  width: 35%;
+  float: left;
+  padding-left: 10%;
+  text-align: center;
+}
+
+.right {
+  width: 35%;
+  float: right;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.section2 img {
+  padding: 30px 0px;
+}
+
+.subtitle {
+  padding-top: 50px;
+  padding-bottom: 12px;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: left;
+}
+
+.subtitle-text {
+  padding-bottom: 90px;
+}
+
+/***** About Us ******/
+
+.section3 {
+ height: auto; 
+}
+
+.section3 img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+/***** Contact Section ******/
+
+.section4 {
+  background-color: #D8D8D8;  
+  height: auto;
+  padding-bottom: 5%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/***** Footer ******/
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background: #eeeeee;
+  position: fixed;
+}
+
+footer h4 {
+  text-align: center;
+  padding-top: 12px;
+  font-size: 0.8em;
+}
+
+footer h4 a {
+  text-decoration: none;
+  color: #383838;
+}
+
+

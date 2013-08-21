@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8" />
+        <title>'03 Boys Orange Storm</title>
+        <link href="stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="stylesheets/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+        <link href="stylesheets/orange.css" rel="stylesheet" type="text/css" />
+        <link href="stylesheets/jquery.tidy.table.min.css" rel="stylesheet" type="text/css" />
+        <!-- <link href="http://www.cirrusmio.com/stylesheets/global.css" rel="stylesheet" type="text/css" /> -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css' />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="scripts/jquery.tidy.table.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#schedule-container').TidyTable({
+                    columnTitles : ['Date', 'Day', 'Time','Home','Visitor','Address'],
+                    columnValues : [
+                                        ['07-Sep','SAT','11:00 AM','MUSA Flyers Navy','Storm SC Orange','Gibson Bay Drive, Richmond KY<br/>Lake Reba RecreationalComplex'],
+                                        ['08-Sep','SUN','5:00 PM','KFJ Classic White','Storm SC Orange','7900 Shelbyville Rd Louisville, KY'],
+                                        ['14-Sep','SAT','11:00 AM','Storm SC Orange','KY Rush','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
+                                        ['14-Sep','SAT','3:00 PM','Storm SC Orange','EKFC Gold','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
+                                        ['15-Sep','SUN','11:00 AM','Storm SC Orange','KFJ Classic White','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
+                                        ['21-Sep','SAT','5:00 PM','KY Rush','Storm SC Orange','225 Scaffold Cane Rd Berea, KY<br/>Berea College Alumni Fields'],
+                                        ['28-Sep','SAT','5:00 PM','CKSC Lightning','Storm SC Orange','Corner of US 127 Bypass & US 34 -Lebanon Rd Danville, KY'],
+                                        ['29-Sep','SUN','11:00 AM','Storm SC Orange','United FC Navy','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
+                                        ['06-Oct','SUN','1:00 PM','United FC Navy','Storm SC Orange','4002 S. Pope Lick Rd Louisville, KY'],
+                                        ['13-Oct','SUN','5:00 PM','Storm SC Orange','MUSA Flyers Navy','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
+                                        ['26-Oct','SAT','3:00 PM','Storm SC Orange','EKFC Gold','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
+                                        ['27-Oct','SUN','3:00 PM','Storm SC Orange','CKSC Lightning','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park']
+                                   ]
+                    });
+            });
+        </script>
+
+    </head>
+    <body>
+        <header>
+            <a class="scroll" href="#top"></a>
+            <nav>
+                <a class="scroll" href="#sponsors">Sponsors</a>
+                <a class="scroll" href="#schedule">Schedule</a>
+                <a class="scroll" href="#contact">Contact</a>
+            </nav>
+        </header>
+        <section class="section2">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <p class="section-title" id="sponsors">Sponsors</p>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <p class="subtitle">Bluegrass Extended Stay</p>
+                            <p class="standard">Fall 2013 practice jerseys and tournament sponsor</p>
+                        </div>
+                        <div class="span6">
+                            <img src="images/bges_logo.png"/>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <p class="subtitle">Nature's Expressions</p>
+                            <p class="standard">Fall 2013 uniform sponsor</p>
+                        </div>
+                        <div class="span6">
+                            <img src="images/nei_logo.png"/>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <p class="section-title" id="schedule">Schedule</p>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <div id="schedule-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
