@@ -14,20 +14,20 @@
         <script>
             $(document).ready(function() {
                 $('#schedule-container').TidyTable({
-                    columnTitles : ['Date', 'Day', 'Time','Home','Visitor','Address'],
+                    columnTitles : ['Date and Time','Home','Visitor','Address'],
                     columnValues : [
-                                        ['07-Sep','SAT','11:00 AM','MUSA Flyers Navy','Storm SC Orange','Gibson Bay Drive, Richmond KY<br/>Lake Reba RecreationalComplex'],
-                                        ['08-Sep','SUN','5:00 PM','KFJ Classic White','Storm SC Orange','7900 Shelbyville Rd Louisville, KY'],
-                                        ['14-Sep','SAT','11:00 AM','Storm SC Orange','KY Rush','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
-                                        ['14-Sep','SAT','3:00 PM','Storm SC Orange','EKFC Gold','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
-                                        ['15-Sep','SUN','11:00 AM','Storm SC Orange','KFJ Classic White','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
-                                        ['21-Sep','SAT','5:00 PM','KY Rush','Storm SC Orange','225 Scaffold Cane Rd Berea, KY<br/>Berea College Alumni Fields'],
-                                        ['28-Sep','SAT','5:00 PM','CKSC Lightning','Storm SC Orange','Corner of US 127 Bypass & US 34 -Lebanon Rd Danville, KY'],
-                                        ['29-Sep','SUN','11:00 AM','Storm SC Orange','United FC Navy','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
-                                        ['06-Oct','SUN','1:00 PM','United FC Navy','Storm SC Orange','4002 S. Pope Lick Rd Louisville, KY'],
-                                        ['13-Oct','SUN','5:00 PM','Storm SC Orange','MUSA Flyers Navy','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
-                                        ['26-Oct','SAT','3:00 PM','Storm SC Orange','EKFC Gold','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park'],
-                                        ['27-Oct','SUN','3:00 PM','Storm SC Orange','CKSC Lightning','791 Richmond Avenue Nicholasville, KY<br/>John Preece Park']
+                    ['Sat Sept 7th @ 11:00 AM','MUSA Flyers Navy','Storm SC Orange','Lake Reba Recreational Complex<br/>Gibson Bay Drive<br/>Richmond KY'],
+                                        ['Sun Sept 8th @ 5:00 PM','KFJ Classic White','Storm SC Orange','7900 Shelbyville Rd<br/>Louisville, KY'],
+                                        ['Sat Sept 14th @ 11:00 AM','Storm SC Orange','KY Rush','John Preece Park<br/>791 Richmond Avenue<br/>Nicholasville, KY'],
+                                        ['Sat Sept 14th @ 3:00 PM','Storm SC Orange','EKFC Gold','John Preece Park<br/>791 Richmond Avenue<br/>Nicholasville, KY'],
+                                        ['Sun Sept 15th @ 11:00 AM','Storm SC Orange','KFJ Classic White','John Preece Park<br/>791 Richmond Avenue<br/>Nicholasville, KY'],
+                                        ['Sat Sept 21st @ 5:00 PM','KY Rush','Storm SC Orange','Berea College Alumni Fields<br/>225 Scaffold Cane Rd<br/>Berea, KY'],
+                                        ['Sat Sept 28th @ 5:00 PM','CKSC Lightning','Storm SC Orange','Corner of US 127 Bypass &<br/>US 34 -Lebanon Rd<br/> Danville, KY'],
+                                        ['Sun Sept 29th @ 11:00 AM','Storm SC Orange','United FC Navy','John Preece Park<br/>791 Richmond Avenue<br/>Nicholasville, KY'],
+                                        ['Sun Oct 6th @ 1:00 PM','United FC Navy','Storm SC Orange','4002 S. Pope Lick Rd<br/>Louisville, KY'],
+                                        ['Sun Oct 13th @ 5:00 PM','Storm SC Orange','MUSA Flyers Navy','John Preece Park<br/>791 Richmond Avenue<br/>Nicholasville, KY'],
+                                        ['Sat Oct 26th @ 3:00 PM','Storm SC Orange','EKFC Gold','John Preece Park<br/>791 Richmond Avenue<br/>Nicholasville, KY'],
+                                        ['Sun Oct 27th @ 3:00 PM','Storm SC Orange','CKSC Lightning','John Preece Park<br/>791 Richmond Avenue<br/>Nicholasville, KY']
                                    ]
                     });
             });
@@ -77,14 +77,27 @@
                     <div class="span12">
                         <p class="section-title" id="schedule">Schedule</p>
                     </div>
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <div id="schedule-container"></div>
-                        </div>
-                    </div>
+                    <div id="schedule-container"></div>
                 </div>
             </div>
         </section>
+        <section class="section4">
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <p class="section-title" id="contact">Contact</p>
+                    </div>
+                    <p class="text-center">
+                        Coach: <strong>Dong Li</strong>
+                        <br/>
+                        Manager: <strong>Carlena Amaro</strong>
+                        <br/>
+                        Treasurer: <strong><a href="mailto:arthall@gmail.com" target="_blank">Art Hall</a></strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+
 
     </body>
 </html>
